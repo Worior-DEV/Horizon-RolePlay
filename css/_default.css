@@ -1,0 +1,224 @@
+/* Sekcja OgÃ³lna */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 0;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(230, 160, 8);
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(70, 70, 70);
+}
+
+a {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+.none {
+    display: none;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding-top: 60px;
+    background: repeating-radial-gradient(#ffc836 0%, rgb(248, 176, 10) 100%);
+}
+
+/* Sekcja Header */
+
+#navigationA {
+    background-color: rgb(216, 216, 216);
+    padding: 10px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+}
+
+#navigationB {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navBContent {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: left;
+    justify-content: left;
+    align-items: center;
+    color: rgb(230, 160, 8);
+    margin: 0;
+    float: left;
+    width: 50%;
+    display: flex;
+}
+
+#navigationC {
+    display: flex;
+    margin: 6px;
+    text-align: right;
+    align-items: center;
+    padding-right: 4px;
+    padding-left: 4px;
+    justify-items: end;
+}
+
+.navCContent {
+    font-family: 'Kanit', sans-serif;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    color: #3a3a3a;
+    background-color: #d5deea;
+    border: solid 3px rgba(250, 187, 53, 0.87);
+    border-radius: 14px;
+    font-weight: 800;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 16px 20px -6px rgb(0 0 0 / 0.1);
+}
+
+.navCContent:hover {
+    background-color: rgba(255, 191, 45, 0.93);
+    border-radius: 14px;
+    border: solid 3px rgba(255, 191, 45, 0.93);
+    padding: 10px;
+}
+
+#navigationD {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.navDContent {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: #d5deea;
+    border: solid 3px rgba(250, 187, 53, 0.87);
+    padding: 10px;
+    border-radius: 14px;
+    color: #3a3a3a;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 16px 20px -6px rgb(0 0 0 / 0.1);
+}
+
+.navDContent:hover {
+    background-color: rgba(255, 191, 45, 0.93);
+    border-radius: 14px;
+    border: solid 3px rgba(255, 191, 45, 0.93);
+    padding: 10px;
+}
+
+#navigationCD {
+    display: flex;
+    float: right;
+    width: 50%;
+    justify-content: end;
+}
+
+#navigationE {
+    padding-top: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+#navigationF {
+    z-index: 500;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 2.5%;
+    height: 2.5%;
+}
+
+/* Sekcja Stopki */
+
+footer {
+    color: rgba(255, 255, 255, 0.85);
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.2%;
+    align-items: center;
+}
+
+#Footer_copyright {
+    float: left;
+    width: 40%;
+    font-weight: 600;
+}
+
+#Footer_1 {
+    display: flex;
+}
+
+#Footer_2 {
+    width: 30%;
+}
+
+#Footer_3 {
+    text-align: center;
+    font-family: Kanit; font-size: small;
+    font-weight: bold;
+}
+
+#Footer_logo {
+    font-family: 'Protest Riot', sans-serif;
+    display: flex;
+    padding-top: 0.5%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    float: right;
+    width: 30%;
+    justify-content: end;
+    align-items: center;
+}
+
+.links2 {
+    margin: 1%;
+    padding-left: 2%;
+    display: flex
+}
+
+.links3 {
+    font-size: large;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.links3:hover {
+    color: rgb(255, 187, 0);
+}
+
+
