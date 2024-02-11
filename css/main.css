@@ -421,6 +421,44 @@
     color: white;
 }
 
+/* Responsywny JoinIn */
+
+#mainJoinIn {
+    border-top: rgba(0, 0, 0, 0) 1px solid;
+    height: 500px;
+    margin-top: 4%;
+    padding: 4%;
+}
+
+#StageJoinIn2 {
+    margin: 5%;
+    font-family: 'Protest Riot', sans-serif;
+    text-align: center;
+    justify-items: center;
+}
+
+#StageJoinIn2.hidden {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+#StageJoinIn2.visible {
+    opacity: 1;
+}
+
+#JoinInIcon2 {
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0 50px 50px -5px rgb(0 0 0 / 0.1), 0 25px 30px -15px rgb(0 0 0 / 0.1);
+    padding: 1%;
+}
+
+#JoinInIcon2:hover {
+    background-color: #d79a03;
+    color: white;
+}
+
+
 
 
 

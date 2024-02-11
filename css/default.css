@@ -222,4 +222,34 @@ footer {
     color: rgb(255, 187, 0);
 }
 
+#responding {
+    display: none;
+}
+
+/* Styl dla ekranów o szerokości mniejszej niż 1200px (telefony)*/
+@media only screen and (max-width: 1485px) {
+    header, footer, #navigationA, #navigationE, #mainAnnouncment, #mainStage1, #mainStage2, #mainStage3, #mainStage4, #mainStage5, #mainJoinIn {
+        display: none;
+    }
+    body {
+        background: repeating-radial-gradient(#ffc836 0%, rgb(248, 176, 10) 100%);
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    #responding {
+        display: block;
+        color: black;
+        font-size: 15px;
+        text-align: center;
+        font-family: 'Protest Riot', sans-serif;
+    }
+
+}
+
+
+
+
 
