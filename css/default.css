@@ -226,7 +226,7 @@ footer {
     display: none;
 }
 
-/* Styl dla ekranów o szerokości mniejszej niż 1200px (telefony)*/
+/* Styl dla ekranów o szerokości mniejszej niż 1485px (telefony i tablety)*/
 @media only screen and (max-width: 1485px) {
     header, footer, #navigationA, #navigationE, #mainAnnouncment, #mainStage1, #mainStage2, #mainStage3, #mainStage4, #mainStage5, #mainJoinIn {
         display: none;
